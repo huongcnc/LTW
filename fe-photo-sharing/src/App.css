@@ -1,0 +1,24 @@
+.main-topbar-buffer {
+  margin-top: 70px;
+}
+
+.main-grid-item {
+  height: calc(100vh - 85px);
+  padding: 10px;
+}
+/* Chiều cao còn lại sau khi trừ TopBar */
+.main-container {
+  height: calc(100vh - 64px);
+}
+
+/* Sidebar UserList */
+.sidebar {
+  border-right: 1px solid #e0e0e0; /* tương đương borderColor: "divider" */
+  overflow-y: auto;
+}
+
+/* Content chính ở bên phải */
+.content {
+  padding: 16px; /* p:2 của MUI = 16px */
+  overflow-y: auto;
+}

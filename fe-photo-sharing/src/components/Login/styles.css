@@ -1,0 +1,25 @@
+.Box-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.Card-1 {
+  width: 350px;               /* chiều rộng form */
+  padding: 24px;              /* khoảng cách bên trong */
+  border-radius: 8px;         /* bo góc nhẹ */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); /* đổ bóng */
+}
+
+.Typography-1 {
+  text-align: center;   /* căn chữ giữa */
+  margin-bottom: 100px;  /* cách phía dưới 16px */
+  font-weight: bold;    /* đậm chữ */
+}
+
+.TextField-1 {
+  width: 100%;          /* cho input chiếm hết chiều ngang trong card */
+  margin: 12px 0;       /* trên 12px, dưới 12px */
+  display: block;       /* để margin, width hoạt động ổn */
+}

@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  backend:
+    build: ./be-photo-sharing
+    container_name: be
+    ports:
+      - "8081:8081"
+
+  frontend:
+    build: ./fe-photo-sharing
+    container_name: fe
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
